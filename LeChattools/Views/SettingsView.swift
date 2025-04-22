@@ -47,14 +47,14 @@ struct GeneralSettingsView: View {
                     .textFieldStyle(.roundedBorder)
             }
             
-            Section("外观") {
-                Picker("主题", selection: $selectedTheme) {
-                    Text("浅色").tag(AppTheme.light)
-                    Text("深色").tag(AppTheme.dark)
-                    Text("系统").tag(AppTheme.system)
-                }
-                .pickerStyle(.segmented)
-            }
+            // // Section("外观") {
+            // //     Picker("主题", selection: $selectedTheme) {
+            // //         Text("浅色").tag(AppTheme.light)
+            // //         Text("深色").tag(AppTheme.dark)
+            // //         Text("系统").tag(AppTheme.system)
+            // // //     }
+            // //     .pickerStyle(.segmented)
+            // }
         }
         .padding()
     }

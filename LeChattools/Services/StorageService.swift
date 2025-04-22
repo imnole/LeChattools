@@ -57,15 +57,15 @@ class StorageService {
         return history
     }
     
-    // MARK: - 主题设置
-    func saveTheme(_ theme: AppTheme) {
-        userDefaults.set(theme.rawValue, forKey: "app_theme")
-    }
+    // // MARK: - 主题设置
+    // func saveTheme(_ theme: AppTheme) {
+    //     userDefaults.set(theme.rawValue, forKey: "app_theme")
+    // }
     
-    func getTheme() -> AppTheme {
-        let rawValue = userDefaults.string(forKey: "app_theme") ?? AppTheme.system.rawValue
-        return AppTheme(rawValue: rawValue) ?? .system
-    }
+    // func getTheme() -> AppTheme {
+    //     let rawValue = userDefaults.string(forKey: "app_theme") ?? AppTheme.system.rawValue
+    //     return AppTheme(rawValue: rawValue) ?? .system
+    // }
 }
 
 enum AppTheme: String {

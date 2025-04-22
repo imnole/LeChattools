@@ -40,12 +40,12 @@ struct LeChattoolsApp: App {
                 .keyboardShortcut("n", modifiers: .command)
             }
             
-            CommandGroup(after: .appSettings) {
-                Button("设置") {
-                    NSApp.sendAction(Selector(("showSettingsWindow:")), to: nil, from: nil)
-                }
-                .keyboardShortcut(",", modifiers: .command)
-            }
+            // CommandGroup(after: .appSettings) {
+            //     Button("设置") {
+            //         NSApp.sendAction(Selector(("showSettingsWindow:")), to: nil, from: nil)
+            //     }
+            //     .keyboardShortcut(",", modifiers: .command)
+            // }
             
             CommandGroup(replacing: .appInfo) {
                 Button("关于 LeChat Tools") {
