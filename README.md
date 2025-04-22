@@ -4,6 +4,15 @@ LeChat Tools 是一个基于 SwiftUI 开发的 macOS 原生聊天工具，专门
 
 ![LeChat Tools Screenshot]
 
+LeChat Tools 视图展示
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/49a75411-ffdc-43f6-b5a3-ddb4fcde1271" />
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/e66725cc-ada3-4bf3-87ba-5af1d33a98e5" />
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/d1fb5237-848c-4c8d-be9c-39dab9c10356" />
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/ab23d69e-0b61-4d8e-984d-19161da7c8b9" />
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/526b0073-98a3-464d-91d2-37d7cec7224d" />
+
+
+
 ## ✨ 主要特性
 
 ### 🤖 智能对话
